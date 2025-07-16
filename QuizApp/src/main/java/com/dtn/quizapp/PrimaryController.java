@@ -12,8 +12,8 @@ public class PrimaryController {
     public void handleQuestionsManagement(ActionEvent event) throws IOException{
         Scene scene = new Scene(new FXMLLoader(App.class.getResource("questions.fxml")).load());
         Stage stage = new Stage();
-        stage.setTitle("Quiz App");
         stage.setScene(scene);
+        stage.setTitle("Quiz App");
         stage.show();
     }
     
